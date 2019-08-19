@@ -1,0 +1,42 @@
+html {
+  font-size: 18px;
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+footer {
+  padding: 2rem;
+}
+
+footer a {
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.stop-motion_animation {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.stop-motion_animation img {
+  display: none;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.stop-motion_animation img:first-of-type {
+  display: block;
+}
